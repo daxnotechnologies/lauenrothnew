@@ -1,0 +1,91 @@
+{
+  "language": "Sprache",
+  "login_header": {
+    "slogan": "Ihr digitaler Teamraum",
+    "contact": "Kontakt",
+    "register": "Registrieren"
+  },
+  "sidebar": {
+    "Home": "Startseite",
+    "Courses": "Kurse",
+    "Plans": "Pläne",
+    "Billing": "Abrechnung",
+    "Accounts": "Konten"
+  },
+  "notfication": {
+    "title": "Benachrichtigungen",
+    "description": "Sie haben {{no}} ungelesene Nachrichten",
+    "new": "NEU",
+    "before": "VORHER",
+    "view": "Alle anzeigen"
+  },
+  "profile": {
+    "settings": "Einstellungen",
+    "Logout": "Ausloggen"
+  },
+  "dashboard_pg": {
+    "title": "Hallo {{user}}, willkommen zurück!",
+    "description": "Dies ist die Plattform zur Verwaltung aller Inhalte der „{{appName}}“ App.",
+    "MP": "Profil verwalten",
+    "glance": "Auf einen Blick",
+    "Caccounts": "{{no}} Unternehmenskonten",
+    "courses": "{{no}} Kurse",
+    "Uaccounts": "{{no}} Benutzerkonten",
+    "Ausers": "{{no}} aktive Benutzer"
+  },
+  "login_pg": {
+    "WB": "Willkommen zurück!",
+    "email": "E-Mail-Adresse",
+    "password": "Passwort",
+    "stay_logged_in": "Angemeldet bleiben",
+    "problems_logging_in": "Probleme beim Einloggen?",
+    "login": "Einloggen",
+    "forgetpassword": {
+      "title": "Passwort vergessen?",
+      "description": "Geben Sie Ihre E-Mail-Adresse ein, um das Passwort zurückzusetzen.",
+      "Reset": "Passwort zurücksetzen"
+    }
+  },
+  "contact_pg": {
+    "title": "Wie können wir Ihnen helfen?",
+    "description": "Bitte kontaktieren Sie uns! Wir werden uns bei Ihnen melden.",
+    "name": "Vorname",
+    "Surname": "Nachname",
+    "Company": "Unternehmen",
+    "email": "E-Mail-Adresse",
+    "msg": "Nachricht",
+    "contact_us": "Kontaktieren Sie uns"
+  },
+  "register_pg": {
+    "title": "Interessiert an unserem Produkt?",
+    "description": "Bitte kontaktieren Sie uns! Wir werden uns bei Ihnen melden.",
+    "name": "Vorname",
+    "Surname": "Nachname",
+    "Company": "Unternehmen",
+    "email": "E-Mail-Adresse",
+    "conditions": "Indem Sie sich anmelden, stimmen Sie unseren",
+    "tnc": "Allgemeinen Geschäftsbedingungen",
+    "and": "und",
+    "pp": "Datenschutzbestimmungen",
+    "sign_up": "Registrieren",
+    "account": "Sie haben bereits ein Konto?",
+    "login": "Hier einloggen"
+  },
+  "thank_you_pg": {
+    "title": "Vielen Dank für Ihre Kontaktaufnahme!",
+    "description": "Wir werden uns bald bei Ihnen melden, um Ihre Anfrage individuell zu besprechen. In der Zwischenzeit erfahren Sie mehr über unser Produkt und unsere Dienstleistungen.",
+    "link": "Entdecken Sie die {{app_name}} App"
+  },
+  "404": {
+    "title": "Entschuldigung, Seite nicht gefunden!",
+    "description": "Entschuldigung, wir konnten die von Ihnen gesuchte Seite nicht finden. Vielleicht haben Sie die URL falsch eingegeben? Bitte überprüfen Sie Ihre Rechtschreibung.",
+    "home": "Zur Startseite"
+  },
+  "footer": {
+    "title": "Ein Produkt von",
+    "contact": "Kontakt",
+    "pp": "Datenschutzbestimmungen",
+    "tnc": "Allgemeine Geschäftsbedingungen",
+    "imprint": "Impressum"
+  }
+}

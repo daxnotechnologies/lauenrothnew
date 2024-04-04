@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.Toastify__toast-container--bottom-center {
+  bottom: 0px !important;
+  width: 100% !important;
+  max-width: 800px !important;
+}
+.MuiTableCell-root {
+  border-top: 1px solid rgba(0, 0, 0, 0.342);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+}
+.last-cell {
+  border-right: 1px solid rgba(0, 0, 0, 0.342);
+  border-radius: 0px 10px 10px 0px;
+}
+.first-cell {
+  overflow: hidden;
+  /* padding-left: 8px; */
+  border-radius: 10px 0px 0px 10px;
+  border-left: 1px solid rgba(0, 0, 0, 0.342);
+}
+.menu-tab-btn {
+  background-color: #efefef;
+  border: 2px solid #efefef;
+}
+.MuiButtonBase-root {
+  box-shadow: none;
+}
+.gradiant-container {
+  z-index: 2;
+  position: relative;
+  background: rgb(245, 245, 245);
+  background: linear-gradient(90deg, rgba(245, 245, 245, 1) 50%, rgba(255, 255, 255, 0) 50%);
+}
+@media only screen and (max-width: 1220px) {
+  .gradiant-container {
+    background: rgb(245, 245, 245);
+    background: linear-gradient(90deg, rgba(245, 245, 245, 1) 55%, rgba(249, 250, 251, 0) 45%);
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .gradiant-container {
+    background: rgb(245, 245, 245);
+    background: linear-gradient(90deg, rgba(245, 245, 245, 1) 65%, rgba(249, 250, 251, 0) 35%);
+  }
+}
+@media only screen and (max-width: 780px) {
+  .gradiant-container {
+    background: rgb(245, 245, 245);
+    background: linear-gradient(90deg, rgba(245, 245, 245, 1) 100%, rgb(249, 250, 251) 100%);
+  }
+}
+.MuiButton-outlinedPrimary:hover {
+  border-color: #00a4db;
+  color: #00a4db;
+  background: transparent;
+}
+.popover-item,
+.text-muted {
+  color: #797979 !important;
+}
+a:hover {
+  color: #00a4db !important;
+}
+.popover-item:hover,
+a > svg:hover {
+  color: #00a4db !important;
+}
+.uploader-wrapper label {
+  width: 100% !important;
+}
+
+.main-wrapper > nav > div > div {
+  background-color: #fff !important;
+}
+.my-nav-links {
+  color: #797979;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem !important; /* 1rem !important !important is equal to the base font size */
+}
+
+h1 {
+  font-size: 1.9rem !important; /* 2 times the base font size */
+}
+
+h2 {
+  font-size: 1.6rem !important; /* 1.8 times the base font size */
+}
+
+h3 {
+  font-size: 1.5rem !important; /* 1.5 times the base font size */
+}
+
+h4 {
+  font-size: 1.25rem !important; /* 1.2 times the base font size */
+}
+
+h5 {
+  font-size: 1.1rem !important; /* 1.1 times the base font size */
+}
+
+.MuiTypography-h6,
+h6 {
+  font-size: 1rem !important; /* Equal to the base font size */
+}
+a > b {
+  font-size: 1rem !important; /* Equal to the base font size */
+}
+div > b {
+  font-size: 1rem !important; /* Equal to the base font size */
+}
+p,
+a,
+li {
+  font-size: 1rem !important; /* Equal to the base font size */
+}
+
+/* Example media queries for responsiveness */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.75rem !important; /* Adjust font size for larger screens */
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    font-size: 0.9rem !important; /* Adjust font size for even larger screens */
+  }
+}
+button {
+  text-transform: initial !important;
+}
+.MuiAccordionSummary-root:hover h4.MuiTypography-root,
+.MuiAccordionSummary-root:hover svg.text-muted {
+  color: #00a4db !important;
+}
+body {
+  background-color: white !important;
+}
+.color-input {
+  padding: 3px;
+  margin-right: 15px;
+  border: 1px solid #00a4db00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.color-input:hover {
+  border: 1px solid #00a4db;
+  cursor: pointer;
+}
+.color-input div > input:hover {
+  cursor: pointer;
+}
+/* KEYFRAMES */
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes spin3D {
+  from {
+    transform: rotate3d(0.5, 0.5, 0.5, 360deg);
+  }
+  to {
+    transform: rotate3d(0deg);
+  }
+}
+
+@keyframes configure-clockwise {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes configure-xclockwise {
+  0% {
+    transform: rotate(45deg);
+  }
+  25% {
+    transform: rotate(-45deg);
+  }
+  50% {
+    transform: rotate(-135deg);
+  }
+  75% {
+    transform: rotate(-225deg);
+  }
+  100% {
+    transform: rotate(-315deg);
+  }
+}
+
+@keyframes pulse {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0.25;
+    transform: scale(0.75);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.spinner-box {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+/* PULSE BUBBLES */
+
+.pulse-container {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pulse-bubble {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #00a4db;
+}
+
+.pulse-bubble-1 {
+  animation: pulse 0.4s ease 0s infinite alternate;
+}
+.pulse-bubble-2 {
+  animation: pulse 0.4s ease 0.2s infinite alternate;
+}
+.pulse-bubble-3 {
+  animation: pulse 0.4s ease 0.4s infinite alternate;
+}
+
+
+#google_translate_element {
+  position: absolute;
+  bottom: calc(53px + 16px);
+  right: 16px!important;
+   z-index: 99999;
+}
+.goog-te-gadget {
+  font-family: Roboto, 'Open Sans', sans-serif!important;
+  text-transform: uppercase;
+}
+.goog-te-gadget-simple  {
+  background-color: rgba(255,255,255,0.20)!important;
+  border: 1px solid rgba(255,255,255,0.50) !important;
+  padding: 8px!important;
+  border-radius: 4px!important;
+  font-size: 1rem!important;
+  line-height:2rem!important;
+  cursor: pointer;
+  zoom: 1;
+}
+.goog-te-gadget-simple a  {
+  display: flex !important;
+}
+.goog-te-gadget-simple a span {
+  display: none !important;
+}
+
+.goog-te-menu2 {
+  max-width: 100%;
+}
+.goog-te-menu-value {
+  color: #fff !important;
+    &:before {
+    font-family: 'Material Icons';
+    content: "\E927";
+    margin-right: 16px;
+    font-size: 2rem;
+    vertical-align: -10px;
+   width:32px!important;
+  } 
+}
+.goog-te-menu-value span:nth-child(5) {
+  display:none;
+}
+.goog-te-menu-value span:nth-child(3) {
+  border:none!important;
+  font-family: 'Material Icons';
+  &:after {
+    font-family: 'Material Icons';
+    content: "\E5C5";
+    font-size: 1.5rem;
+    vertical-align: -6px;
+  }  
+}
+
+.goog-te-gadget-icon {
+    background-image: url(https://placehold.it/32)!important;
+    background-position: 0px 0px;
+    height: 32px!important;
+    width: 32px!important;
+    margin-right: 8px!important;
+    display: none;
+}
+
+.goog-te-banner-frame.skiptranslate {display: none!important;} 
+body {top: 0px!important;}
+
+
+@media (max-width: 667px) {
+	#google_translate_element {
+		bottom: calc(100% - 50% - 53px);
+		left: 16px!important;
+		width: 100%!important;
+		goog-te-gadget {
+			width:100%!important;
+		}
+		.skiptranslate {
+			width:100%!important;			
+		}
+		.goog-te-gadget-simple {
+			width: calc(100% - 32px)!important;
+			text-align: center;
+		}	
+	}
+}
+.skiptranslate iframe{
+  display: none !important;
+}

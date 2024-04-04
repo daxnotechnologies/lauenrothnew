@@ -1,0 +1,91 @@
+{
+  "language": "Language",
+  "login_header": {
+    "slogan": "Your digital team space",
+    "contact": "contact",
+    "register": "Register"
+  },
+  "login_pg": {
+    "WB": "Welcome back!",
+    "email": "Email Address",
+    "password": "Password",
+    "stay_logged_in": "Stay logged in",
+    "problems_logging_in": "Problems logging in?",
+    "login": "Login",
+    "forgetpassord": {
+      "title": "Forgot your password?",
+      "description": "Enter your email address to reset password.",
+      "Reset": "Reset Password"
+    }
+  },
+  "notfication": {
+    "title": "Notifications",
+    "description": "You have {{no}} unread messages",
+    "new": "NEW",
+    "before": "BEFORE THAT",
+    "view": "View All"
+  },
+  "profile": {
+    "settings": "Settings",
+    "Logout": "Logout"
+  },
+  "dashboard_pg": {
+    "title": "Hi {{user}}, welcome back!",
+    "description": "This is the platform to manage all the content regarding the „{{appName}}“ App.",
+    "MP": "Manage Profile",
+    "glance": "At a glance",
+    "Caccounts": "{{no}} company accounts",
+    "courses": "{{no}} courses",
+    "Uaccounts": "{{no}} user accounts",
+    "Ausers": "{{no}} active users"
+  },
+  "sidebar": {
+    "Home": "Home",
+    "Courses": "Courses",
+    "Plans": "Plans",
+    "Billing": "Billing",
+    "Accounts": "Accounts"
+  },
+  "contact_pg": {
+    "title": "How can we help?",
+    "description": "Please contact us! We will reach out.",
+    "name": "Name",
+    "Surname": "Surname",
+    "Company": "Company",
+    "email": "Email Address",
+    "msg": "Message",
+    "contact_us": "Contact Us"
+  },
+  "register_pg": {
+    "title": "Interested in our product?",
+    "description": "Please contact us! We will reach out.",
+    "name": "Name",
+    "Surname": "Surname",
+    "Company": "Company",
+    "email": "Email Address",
+    "conditions": "By signing up you agree to our",
+    "tnc": "terms and conditions",
+    "and": "and",
+    "pp": "privacy policy",
+    "sign_up": "Sign up",
+    "account": "Already have an account?",
+    "Login": "Login here"
+  },
+  "thank_you_pg": {
+    "title": "Thank you for contacting us!",
+    "description": "We will get back to you soon to discuss your inquiry individually. Meanwhile find out more about our product and services.",
+    "link": "Discover {{app_name}} App"
+  },
+  "404": {
+    "title": "Sorry, page not found!",
+    "description": "Sorry, we couldn’t find the page you’re looking for. Perhaps you’ve mistyped the URL? Be sure to check your spelling.",
+    "home": "Go To Home"
+  },
+  "footer": {
+    "title": "A Product of",
+    "contact": "Contact",
+    "pp": "Privacy Policy",
+    "tnc": "Terms and Conditions",
+    "imprint": "Imprint"
+  }
+}
